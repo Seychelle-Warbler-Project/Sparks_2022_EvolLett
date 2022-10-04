@@ -1,0 +1,17 @@
+Column name,Description
+ID,Individual bird identifier
+Sex,Sex of the individual where 0 is female and 1 is male
+Year,Year of ARS measure
+BirthYear,Year of birth
+FinalYear,Year of death
+ARS1yr,Annual reproductive success measure: number of offspring the individual had that year that reached at least 1 year old
+GroupSize,Natal group size
+HelpersF,Presence of helpers in the natal territory as a binary variable (0 - no and 1 - 1 or more helpers)
+Siblings,Presence of siblings in the natal nest as a binary variable (0 - no and 1 - yes)
+TQ,Natal territory quality
+MotherID,Mum ID from genetic pedigree
+FatherID,Dad ID from genetic pedigree
+DominantMaleID,Dominant male ID in the natal territory
+AgeMother,Age of mother when the individual (ID) hatched
+AgeFather,Age of father when the individual (ID) hatched
+DominantMaleAge,Age of dominant male when the individual (ID) hatched
