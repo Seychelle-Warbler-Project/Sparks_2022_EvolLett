@@ -462,7 +462,7 @@ LRSfdata$cDevMeanAgeFather<-LRSfdata$cAgeFather-LRSfdata$cMeanAgeFather
 LRSfdata<-LRSfdata %>% group_by(DominantMaleID) %>% mutate(cMeanAgeSocMale = mean(cDominantMaleAge)) %>% ungroup()
 LRSfdata$cDevMeanAgeSocMale<-LRSfdata$cDominantMaleAge-LRSfdata$cMeanAgeSocMale
 
-LRSfdata<-LRSfdata %>% dplyr::group_by(MotherID) %>% dplyr::mutate(MeanAgeMother = mean(AgeMother)) %>% dplyr::ungroup()
+LRSfdata<-LRSfdata %>% group_by(MotherID) %>% mutate(MeanAgeMother = mean(AgeMother)) %>% ungroup()
 LRSfdata$DevMeanAgeMother<-LRSfdata$AgeMother-LRSfdata$MeanAgeMother
 
 summary(LRSfdata$cMeanAgeMother)
