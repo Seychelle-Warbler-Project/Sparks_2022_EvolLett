@@ -11,9 +11,9 @@ TranslocatedF,Whether or not an individual had been translocated to another isla
 MotherID,Mum ID from genetic pedigree
 FatherID,Dad ID from genetic pedigree
 DominantMaleID,Dominant male ID in the natal territory
-AgeMother,Age of mother when the individual (ID) hatched
-AgeFather,Age of father when the individual (ID) hatched
-DominantMaleAge,Age of dominant male when the individual (ID) hatched
+AgeMother,Age of mother (in years) when the individual (ID) hatched
+AgeFather,Age of father (in years) when the individual (ID) hatched
+DominantMaleAge,Age of dominant male (in years) when the individual (ID) hatched
 LRS1YEAR,The number of offspring the individual produced over their lifetime that reached at least 1 year old
 Event,Whether or not the individual died (0 - no (alive or translocated) or 1 - yes (died))
 ReproLifespan,Reproductive lifespan of the individual in years
